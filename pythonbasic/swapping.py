@@ -1,0 +1,9 @@
+a=10
+b=20
+print("before",a,"and",b)
+c=a
+a=b
+b=c
+print("before",a,"and",b)
+a,b=b,a
+print("before",a,"and",b)
